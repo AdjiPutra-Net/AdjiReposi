@@ -1,0 +1,56 @@
+/* Container Utama untuk Testimoni */
+.testimonial-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk setiap Testimoni */
+.testimonial {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Gaya untuk teks testimoni */
+.testimonial-text {
+    font-size: 1.2em;
+    line-height: 1.3;
+    color: #555;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Container untuk informasi penulis */
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Gaya untuk foto penulis */
+.author-photo {
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 12px;
+    object-fit: cover;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk nama penulis */
+.author-name {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+/* Gaya untuk peran/jabatan penulis */
+.author-role {
+    font-size: 0.8em;
+    color: #777;
+    margin: 0;
+}
