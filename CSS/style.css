@@ -33,8 +33,8 @@
 /* Gaya untuk foto penulis */
 .author-photo {
     width: 50px;
-    height: 60px;
-    border-radius: 50%;
+    height: 50px;
+    border-radius: 40%;
     margin-right: 12px;
     object-fit: cover;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
